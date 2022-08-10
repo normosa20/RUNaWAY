@@ -8,8 +8,8 @@ pipeline {
     AWS_SECRET_ACCESS_KEY = credentials('NORAH-aws-secret-access-key')
     ARTIFACT_NAME = 'Dockerrun.aws.json'
     AWS_S3_BUCKET = 'norh-belt2-artifacts-123456'
-    AWS_EB_APP_NAME = 'Gamenor-env'
-    AWS_EB_ENVIRONMENT_NAME = '	game-nor'
+    AWS_EB_APP_NAME = 'game-nor'
+    AWS_EB_ENVIRONMENT_NAME = 'Gamenor-env'
     AWS_EB_APP_VERSION = "${BUILD_ID}"
   }
 
