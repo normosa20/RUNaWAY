@@ -18,7 +18,7 @@ pipeline {
     stage('Build') {
 
       steps {
-        sh 'docker build -t 'normosa/runaway-newgame:latest .'
+        sh 'docker build -t normosa/runaway-newgame:latest .'
       }
     }
 
